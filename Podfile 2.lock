@@ -1,0 +1,35 @@
+PODS:
+  - linphone-sdk (4.4.3):
+    - linphone-sdk/all-frameworks (= 4.4.3)
+    - linphone-sdk/app-extension (= 4.4.3)
+    - linphone-sdk/app-extension-swift (= 4.4.3)
+    - linphone-sdk/basic-frameworks (= 4.4.3)
+    - linphone-sdk/swift (= 4.4.3)
+  - linphone-sdk/all-frameworks (4.4.3)
+  - linphone-sdk/app-extension (4.4.3)
+  - linphone-sdk/app-extension-swift (4.4.3):
+    - linphone-sdk/app-extension
+  - linphone-sdk/basic-frameworks (4.4.3):
+    - linphone-sdk/app-extension
+  - linphone-sdk/swift (4.4.3):
+    - linphone-sdk/app-extension-swift
+    - linphone-sdk/basic-frameworks
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - linphone-sdk (= 4.4.3)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SVProgressHUD
+  https://gitlab.linphone.org/BC/public/podspec.git:
+    - linphone-sdk
+
+SPEC CHECKSUMS:
+  linphone-sdk: 59617071b8a1fb677783804f8dfc4cc27ab9a9d5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: a255ca0e34000cfa19d244638b25abba14a44551
+
+COCOAPODS: 1.9.3
