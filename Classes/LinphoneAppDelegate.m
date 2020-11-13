@@ -58,13 +58,32 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
 	LOGI(@"%@", NSStringFromSelector(_cmd));
 	if (linphone_core_get_global_state(LC) != LinphoneGlobalOff) {
-		[LinphoneManager.instance enterBackgroundMode];
-		[LinphoneManager.instance.fastAddressBook clearFriends];
+		/*[LinphoneManager.instance enterBackgroundMode];
+        [LinphoneManager.instance.fastAddressBook clearFriends];
 		if (PhoneMainView.instance.currentView == ChatConversationView.compositeViewDescription) {
 			ChatConversationView *view = VIEW(ChatConversationView);
 			[view removeCallBacks];
 		}
-		[CoreManager.instance stopLinphoneCore];
+		[CoreManager.instance stopLinphoneCore];*/
+        
+        //Keep alive in background
+        linphone_core_refresh_registers(LC);
+        
+        
+//        int i =0;
+//        while(!linphone_proxy_config_get_state(proxy)
+//        {
+//              linphone_core_iterate(LC);
+//              usleep(1000000);
+//        }
+        
+        [[UIApplication sharedApplication] setKeepAliveTimeout:600 handler:^{
+                    
+                    linphone_core_refresh_registers(LC);
+                    linphone_core_iterate(LC);
+                    
+        }];
+        
 	}
 }
 
@@ -78,9 +97,18 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
 	LOGI(@"%@", NSStringFromSelector(_cmd));
 	LinphoneCall *call = linphone_core_get_current_call(LC);
+    
+    linphone_core_refresh_registers(LC);
+    [[UIApplication sharedApplication] setKeepAliveTimeout:600 handler:^{
+                
+                linphone_core_refresh_registers(LC);
+                linphone_core_iterate(LC);
+                
+    }];
 
-	if (!call)
-		return;
+    if (!call){        
+            return;
+    }
 
 	/* save call context */
 	LinphoneManager *instance = LinphoneManager.instance;
@@ -277,8 +305,8 @@
 		}];
 	}
 
-	BOOL background_mode = [instance lpConfigBoolForKey:@"backgroundmode_preference"];
-	BOOL start_at_boot = [instance lpConfigBoolForKey:@"start_at_boot_preference"];
+    BOOL background_mode = true;//[instance lpConfigBoolForKey:@"backgroundmode_preference"];
+    BOOL start_at_boot = true;//[instance lpConfigBoolForKey:@"start_at_boot_preference"];
 	[self registerForNotifications]; // Register for notifications must be done ASAP to give a chance for first SIP register to be done with right token. Specially true in case of remote provisionning or re-install with new type of signing certificate, like debug to release.
 
 	if (state == UIApplicationStateBackground) {
@@ -310,6 +338,8 @@
 
     //register the notification settings
     [application registerUserNotificationSettings:notificationSettings];
+    
+    
 
     //output what state the app is in. This will be used to see when the app is started in the background
     LOGI(@"app launched with state : %li", (long)application.applicationState);

@@ -347,7 +347,7 @@ static int check_should_migrate_images(void *data, int argc, char **argv, char *
     NSDictionary *defaults = [[NSUserDefaults standardUserDefaults] dictionaryRepresentation];
     NSArray *defaults_keys = [defaults allKeys];
     NSDictionary *values =
-        @{ @"backgroundmode_preference" : @NO,
+        @{ @"backgroundmode_preference" : @YES,
            @"debugenable_preference" : @NO,
            @"start_at_boot_preference" : @YES };
     BOOL shouldSync = FALSE;
@@ -588,7 +588,14 @@ static void linphone_iphone_global_state_changed(LinphoneCore *lc, LinphoneGloba
                   [NSString stringWithUTF8String:message ? message : ""], @"message", nil];
 
     if (theLinphoneCore && linphone_core_get_global_state(theLinphoneCore) == LinphoneGlobalOff) {
-        [CoreManager.instance stopIterateTimer];
+        linphone_core_refresh_registers(LC);
+        [[UIApplication sharedApplication] setKeepAliveTimeout:600 handler:^{
+                    
+                    linphone_core_refresh_registers(LC);
+                    linphone_core_iterate(LC);
+                    
+        }];
+        //[CoreManager.instance stopIterateTimer];
     }
     // dispatch the notification asynchronously
     dispatch_async(dispatch_get_main_queue(), ^(void) {
@@ -649,6 +656,20 @@ cfg:(LinphoneProxyConfig *)cfg
 state:(LinphoneRegistrationState)state
 message:(const char *)cmessage {
     LOGI(@"New registration state: %s (message: %s)", linphone_registration_state_to_string(state), cmessage);
+    
+    
+    
+    
+    if(cmessage == @"Unregistration done".UTF8String)
+    {
+        linphone_core_refresh_registers(LC);
+        [[UIApplication sharedApplication] setKeepAliveTimeout:600 handler:^{
+                    
+                    linphone_core_refresh_registers(LC);
+                    linphone_core_iterate(LC);
+                    
+        }];
+    }
 
     LinphoneReason reason = linphone_proxy_config_get_error(cfg);
     NSString *message = nil;
@@ -1894,10 +1915,15 @@ static int comp_call_state_paused(const LinphoneCall *call, const void *param) {
         // dummy value, for later use
         NSString *teamId = @"ABCD1234";
 
+//        NSString *params = [NSString
+//                    stringWithFormat:@"pn-provider=apns%@;pn-prid=%@;pn-param=%@.%@.%@;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-"
+//                    @"call-snd=%@;pn-msg-snd=msg.caf%@;pn-silent=1",
+//                    APPMODE_SUFFIX, token, teamId, [[NSBundle mainBundle] bundleIdentifier], services, ring, timeout];
+        
         NSString *params = [NSString
-                    stringWithFormat:@"pn-provider=apns%@;pn-prid=%@;pn-param=%@.%@.%@;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-"
-                    @"call-snd=%@;pn-msg-snd=msg.caf%@;pn-silent=1",
-                    APPMODE_SUFFIX, token, teamId, [[NSBundle mainBundle] bundleIdentifier], services, ring, timeout];
+        stringWithFormat:@"app-id=%@%@.%@;pn-type=apple;pn-tok=%@;"
+        @"%@%@",
+        [[NSBundle mainBundle] bundleIdentifier], @"IC_MSG", APPMODE_SUFFIX, token, timeout, @"1"];
 
         LOGI(@"Proxy config %s configured for push notifications with contact: %@",
         linphone_proxy_config_get_identity(proxyCfg), params);

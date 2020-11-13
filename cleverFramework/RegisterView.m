@@ -69,15 +69,15 @@ exit_nicely(PGconn *conn)
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     // Set observer
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(registrationUpdateEvent:)
-                                                 name:kLinphoneRegistrationUpdate
-                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(registrationUpdateEvent:)
+//                                                 name:kLinphoneRegistrationUpdate
+//                                               object:nil];
 
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(configureStateUpdateEvent:)
-                                                 name:kLinphoneConfiguringStateUpdate
-                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(configureStateUpdateEvent:)
+//                                                 name:kLinphoneConfiguringStateUpdate
+//                                               object:nil];
 
     // Update on show
     const MSList *list = linphone_core_get_proxy_config_list([LinphoneManager getLc]);
@@ -264,7 +264,7 @@ exit_nicely(PGconn *conn)
                 .UTF8String);
         
 
-        linphone_proxy_config_enable_publish(config, FALSE);
+        linphone_proxy_config_enable_publish(config, TRUE);
         linphone_proxy_config_enable_register(config, TRUE);
 
         LinphoneAuthInfo *info =
@@ -278,6 +278,10 @@ exit_nicely(PGconn *conn)
         linphone_core_add_auth_info(LC, info);
         linphone_address_unref(addr);
         linphone_address_unref(tmpAddr);
+//        [self setBool:YES forKey:@"account_substitute_+_by_00_preference"];
+            
+            
+            //keep alive in background
 
         if (config) {
             [[LinphoneManager instance] configurePushTokenForProxyConfig:config];

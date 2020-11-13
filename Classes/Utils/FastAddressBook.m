@@ -248,7 +248,13 @@
 		char *normalizedPhone = cfg? linphone_proxy_config_normalize_phone_number(linphone_core_get_default_proxy_config(LC), phone.UTF8String) : nil;
 		NSString *name = [FastAddressBook normalizeSipURI:normalizedPhone ? [NSString stringWithUTF8String:normalizedPhone] : phone];
 		if (phone != NULL)
+            @try{
 			[_addressBookMap setObject:mContact forKey:(name ?: [FastAddressBook localizedLabel:phone])];
+            }
+        @catch(NSException *e)
+        {
+            LOGE(@"OOPS",e);
+        }
 
 		if (normalizedPhone)
 			ms_free(normalizedPhone);
@@ -519,6 +525,7 @@
 	LinphoneProxyConfig *cfg = linphone_core_get_default_proxy_config(LC);
 
 	__block NSMutableDictionary *displayNames = [[NSMutableDictionary dictionary] init];
+    @try{
 	[_addressBookMap enumerateKeysAndObjectsUsingBlock:^(NSString *name, Contact *contact, BOOL *stop) {
 		if ([FastAddressBook isSipURIValid:name]) {
 			NSString *key = name;
@@ -536,17 +543,18 @@
 			}
 			LOGD(@"add %s to userdefaults", key.UTF8String);
 			[displayNames setObject:[contact displayName] forKey:key];
-            @try{
-			linphone_address_unref(addr);
-            }
-            @catch(NSException *e)
-            {
-                LOGD(@"oops", name.UTF8String);
+            if(addr != NULL){
+                linphone_address_unref(addr);
             }
 		} else {
 			LOGD(@"cannot add %s to userdefaults: bad sip address", name.UTF8String);
 		}
 	}];
+    }
+    @catch(NSException *ex)
+    {
+        LOGE(@"OOPS",ex);
+    }
 
 	[defaults setObject:displayNames forKey:@"addressBook"];
 }

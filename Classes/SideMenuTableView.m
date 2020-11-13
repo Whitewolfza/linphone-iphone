@@ -57,6 +57,14 @@
 
 	_sideMenuEntries = [[NSMutableArray alloc] init];
     
+    [_sideMenuEntries
+        addObject:[[SideMenuEntry alloc] initWithTitle:NSLocalizedString(@"Settings", nil)
+                                                 image:[UIImage imageNamed:@"menu_options.png"]
+                                              tapBlock:^() {
+                                                [PhoneMainView.instance
+                                                    changeCurrentView:SettingsView.compositeViewDescription];
+                                              }]];
+    
 	/*[_sideMenuEntries
 		addObject:[[SideMenuEntry alloc] initWithTitle:NSLocalizedString(@"Assistant", nil)
                                                  image:[UIImage imageNamed:@"menu_assistant.png"]

@@ -851,6 +851,9 @@ static void CheckUser()
 		[vc.mainViewController setViewTransition:(animated ? transition : nil)];
 		[vc.mainViewController changeView:view];
 		vc->currentView = view;
+        
+        
+        
 	}
 
 	//[[RootViewManager instance] setViewControllerForDescription:view];

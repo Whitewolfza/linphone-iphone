@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1016B71E3D638D6AFB73FEC8 /* Pods_linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71067F408629B48C8514624A /* Pods_linphone.framework */; };
 		152F22361B15E889008C0621 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F22351B15E889008C0621 /* libxml2.dylib */; };
 		1D3623260D0F684500981E51 /* LinphoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LinphoneAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -57,6 +56,7 @@
 		340751E7150F38FD00B89C47 /* UIVideoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 340751E6150F38FD00B89C47 /* UIVideoButton.m */; };
 		34216F401547EBCD00EA9777 /* VideoZoomHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34216F3F1547EBCD00EA9777 /* VideoZoomHandler.m */; };
 		344ABDF114850AE9007420B6 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 344ABDEF14850AE9007420B6 /* libc++.1.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5055FFCB6CA4596E0EFBB387 /* Pods_linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC0CCEBFD9BB5866927219A /* Pods_linphone.framework */; };
 		570742581D5A0691004B9C84 /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570742561D5A0691004B9C84 /* ShopView.xib */; };
 		570742611D5A09B8004B9C84 /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5707425F1D5A09B8004B9C84 /* ShopView.m */; };
 		570742671D5A63DB004B9C84 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570742661D5A63DB004B9C84 /* StoreKit.framework */; };
@@ -675,8 +675,7 @@
 		8CF25D961F9F336100BEA0C1 /* check_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D941F9F336100BEA0C1 /* check_unselected.png */; };
 		8CF25D9D1F9F76BD00BEA0C1 /* chat_group_informations.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D9B1F9F76BC00BEA0C1 /* chat_group_informations.png */; };
 		8CF25D9E1F9F76BD00BEA0C1 /* chat_group_informations@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF25D9C1F9F76BD00BEA0C1 /* chat_group_informations@2x.png */; };
-		9D948E6B6241486F790C6F33 /* Pods_msgNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DE01AD08C3A65B9F090A72 /* Pods_msgNotificationService.framework */; };
-		AEBAF7B3ED3A011E435F5B8B /* Pods_msgNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B99BAF69C38A4154F18EEC /* Pods_msgNotificationContent.framework */; };
+		9A56D4AF1B84F013666E2A33 /* Pods_msgNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D03B4992775D881C48728F9 /* Pods_msgNotificationService.framework */; };
 		C90FAA7915AF54E6002091CB /* HistoryDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90FAA7715AF54E6002091CB /* HistoryDetailsView.m */; };
 		CF15F21E20E4F9A3008B1DE6 /* UIImageViewDeletable.m in Sources */ = {isa = PBXBuildFile; fileRef = CF15F21C20E4F9A3008B1DE6 /* UIImageViewDeletable.m */; };
 		CF15F21F20E4F9A3008B1DE6 /* UIImageViewDeletable.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF15F21D20E4F9A3008B1DE6 /* UIImageViewDeletable.xib */; };
@@ -761,6 +760,7 @@
 		D3F7998115BD32370018C273 /* TPMultiLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F7998015BD32370018C273 /* TPMultiLayoutViewController.m */; };
 		D3F83EEC1582021700336684 /* CallView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F83EEA1582021700336684 /* CallView.m */; };
 		D3F83F8E15822ABE00336684 /* PhoneMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F83F8D15822ABD00336684 /* PhoneMainView.m */; };
+		D58201618E646CC604157E54 /* Pods_msgNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5C0924A753DCC6C643888 /* Pods_msgNotificationContent.framework */; };
 		EA0007A62356008F003CC6BF /* msgNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA5F25D9232BD3E200475F2E /* msgNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EA3650DB2330D2E30001148A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F25DB232BD3E200475F2E /* NotificationService.swift */; };
 		EA88A405242A6216007FEC61 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63AADBC41B6A0FF200AA16FD /* Localizable.strings */; };
@@ -835,6 +835,7 @@
 
 /* Begin PBXFileReference section */
 		152F22351B15E889008C0621 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1656F243C08EA7BDE7200466 /* Pods-msgNotificationService.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* LinphoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinphoneAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* LinphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinphoneAppDelegate.m; sourceTree = "<group>"; };
@@ -905,11 +906,13 @@
 		34216F3F1547EBCD00EA9777 /* VideoZoomHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoZoomHandler.m; path = LinphoneUI/VideoZoomHandler.m; sourceTree = "<group>"; };
 		344ABDEF14850AE9007420B6 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
 		344ABDF014850AE9007420B6 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		444C81326F809E566AA35138 /* Pods-msgNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		4A105DF60933A9CD010118F6 /* Pods-msgNotificationService.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distribution.xcconfig"; sourceTree = "<group>"; };
+		4B94F38887AC2B014E1A16C3 /* Pods-msgNotificationContent.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distribution.xcconfig"; sourceTree = "<group>"; };
 		570742571D5A0691004B9C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShopView.xib; sourceTree = "<group>"; };
 		5707425F1D5A09B8004B9C84 /* ShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
 		570742601D5A09B8004B9C84 /* ShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
 		570742661D5A63DB004B9C84 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		57F47CDE71347E68401CA99F /* Pods-msgNotificationContent.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distribution.xcconfig"; sourceTree = "<group>"; };
 		5E363F4F255961E60041E4BE /* libpq.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpq.framework; sourceTree = "<group>"; };
 		5E58962520DCE5700030868C /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		5E8A9BB125501DF7008B508F /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
@@ -920,147 +923,6 @@
 		5ECBF1C425512CD8000864B5 /* linphonesw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = linphonesw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECBF1C825512D15000864B5 /* linphonesw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = linphonesw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDBFE3F25513EAC00AE2355 /* PGClientKit_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PGClientKit_ios.framework; path = "../../../Downloads/postgresql-kit-alpha-009/iphoneos 8.1/PGClientKit_ios.framework"; sourceTree = "<group>"; };
-		5EDBFF1F2551549800AE2355 /* libzdb-3.2.2.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = "libzdb-3.2.2.tar"; path = "../../../Downloads/libzdb-3.2.2.tar"; sourceTree = "<group>"; };
-		5EDBFF24255155B000AE2355 /* zdb.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = zdb.pc.in; sourceTree = "<group>"; };
-		5EDBFF25255155B000AE2355 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
-		5EDBFF28255155B000AE2355 /* filterh.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = filterh.l; sourceTree = "<group>"; };
-		5EDBFF29255155B000AE2355 /* lex.yy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lex.yy.c; sourceTree = "<group>"; };
-		5EDBFF2B255155B000AE2355 /* bootstrap */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = bootstrap; sourceTree = "<group>"; };
-		5EDBFF2D255155B000AE2355 /* exception.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = exception.c; sourceTree = "<group>"; };
-		5EDBFF2E255155B000AE2355 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		5EDBFF2F255155B000AE2355 /* select.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = select.c; sourceTree = "<group>"; };
-		5EDBFF30255155B000AE2355 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		5EDBFF31255155B000AE2355 /* pool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pool.c; sourceTree = "<group>"; };
-		5EDBFF32255155B000AE2355 /* zdbpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zdbpp.cpp; sourceTree = "<group>"; };
-		5EDBFF33255155B000AE2355 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		5EDBFF34255155B000AE2355 /* unit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unit.c; sourceTree = "<group>"; };
-		5EDBFF35255155B000AE2355 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
-		5EDBFF37255155B000AE2355 /* doxy_head */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxy_head; sourceTree = "<group>"; };
-		5EDBFF38255155B000AE2355 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
-		5EDBFF39255155B000AE2355 /* ax_info.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ax_info.m4; sourceTree = "<group>"; };
-		5EDBFF3A255155B100AE2355 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
-		5EDBFF3B255155B100AE2355 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
-		5EDBFF3C255155B100AE2355 /* tnsnames.ora */ = {isa = PBXFileReference; lastKnownFileType = text; path = tnsnames.ora; sourceTree = "<group>"; };
-		5EDBFF3D255155B100AE2355 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
-		5EDBFF3E255155B100AE2355 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
-		5EDBFF3F255155B100AE2355 /* compile */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile; sourceTree = "<group>"; };
-		5EDBFF40255155B100AE2355 /* DoxygenLayout.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DoxygenLayout.xml; sourceTree = "<group>"; };
-		5EDBFF41255155B100AE2355 /* doxy_bottom */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxy_bottom; sourceTree = "<group>"; };
-		5EDBFF42255155B100AE2355 /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
-		5EDBFF43255155B100AE2355 /* ax_lib_oracle_oci.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ax_lib_oracle_oci.m4; sourceTree = "<group>"; };
-		5EDBFF44255155B100AE2355 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
-		5EDBFF45255155B100AE2355 /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
-		5EDBFF46255155B100AE2355 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		5EDBFF47255155B100AE2355 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		5EDBFF48255155B100AE2355 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		5EDBFF4A255155B100AE2355 /* ltversion.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltversion.m4; sourceTree = "<group>"; };
-		5EDBFF4B255155B100AE2355 /* libtool.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtool.m4; sourceTree = "<group>"; };
-		5EDBFF4C255155B100AE2355 /* ltoptions.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltoptions.m4; sourceTree = "<group>"; };
-		5EDBFF4D255155B100AE2355 /* ltsugar.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltsugar.m4; sourceTree = "<group>"; };
-		5EDBFF4E255155B100AE2355 /* lt~obsolete.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lt~obsolete.m4"; sourceTree = "<group>"; };
-		5EDBFF50255155B100AE2355 /* THIRDPARTY-LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = "THIRDPARTY-LICENSE"; sourceTree = "<group>"; };
-		5EDBFF51255155B100AE2355 /* LICENSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LICENSE.pdf; sourceTree = "<group>"; };
-		5EDBFF53255155B100AE2355 /* globals_type.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_type.html; sourceTree = "<group>"; };
-		5EDBFF54255155B100AE2355 /* splitbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splitbar.png; sourceTree = "<group>"; };
-		5EDBFF55255155B100AE2355 /* doxygen.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
-		5EDBFF56255155B100AE2355 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		5EDBFF57255155B100AE2355 /* sync_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync_off.png; sourceTree = "<group>"; };
-		5EDBFF58255155B100AE2355 /* sync_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync_on.png; sourceTree = "<group>"; };
-		5EDBFF59255155B100AE2355 /* libzdb.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = libzdb.css; sourceTree = "<group>"; };
-		5EDBFF5A255155B100AE2355 /* PreparedStatement_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = PreparedStatement_8h.html; sourceTree = "<group>"; };
-		5EDBFF5B255155B100AE2355 /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
-		5EDBFF5C255155B100AE2355 /* bc_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_s.png; sourceTree = "<group>"; };
-		5EDBFF5D255155B100AE2355 /* nav_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_g.png; sourceTree = "<group>"; };
-		5EDBFF5E255155B100AE2355 /* nav_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_f.png; sourceTree = "<group>"; };
-		5EDBFF5F255155B100AE2355 /* tabs.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
-		5EDBFF60255155B100AE2355 /* database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database.png; sourceTree = "<group>"; };
-		5EDBFF61255155B100AE2355 /* closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed.png; sourceTree = "<group>"; };
-		5EDBFF62255155B100AE2355 /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
-		5EDBFF63255155B100AE2355 /* mysqloptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = mysqloptions.html; sourceTree = "<group>"; };
-		5EDBFF64255155B100AE2355 /* tab_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_s.png; sourceTree = "<group>"; };
-		5EDBFF65255155B100AE2355 /* files.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = files.html; sourceTree = "<group>"; };
-		5EDBFF66255155B100AE2355 /* tab_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_a.png; sourceTree = "<group>"; };
-		5EDBFF67255155B100AE2355 /* URL_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = URL_8h.html; sourceTree = "<group>"; };
-		5EDBFF68255155B100AE2355 /* tab_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_b.png; sourceTree = "<group>"; };
-		5EDBFF69255155B100AE2355 /* bdwn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bdwn.png; sourceTree = "<group>"; };
-		5EDBFF6A255155B100AE2355 /* globals_vars.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_vars.html; sourceTree = "<group>"; };
-		5EDBFF6B255155B100AE2355 /* postgresoptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = postgresoptions.html; sourceTree = "<group>"; };
-		5EDBFF6C255155B100AE2355 /* globals_func.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_func.html; sourceTree = "<group>"; };
-		5EDBFF6D255155B100AE2355 /* nav_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_h.png; sourceTree = "<group>"; };
-		5EDBFF6E255155B100AE2355 /* tab_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_h.png; sourceTree = "<group>"; };
-		5EDBFF6F255155B100AE2355 /* SQLException_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = SQLException_8h.html; sourceTree = "<group>"; };
-		5EDBFF70255155B100AE2355 /* oracleoptions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = oracleoptions.html; sourceTree = "<group>"; };
-		5EDBFF71255155B100AE2355 /* Exception_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Exception_8h.html; sourceTree = "<group>"; };
-		5EDBFF72255155B100AE2355 /* libzdboptions.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = libzdboptions.css; sourceTree = "<group>"; };
-		5EDBFF73255155B100AE2355 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
-		5EDBFF74255155B100AE2355 /* globals_defs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_defs.html; sourceTree = "<group>"; };
-		5EDBFF75255155B100AE2355 /* dir_bb61871b4c63e4e6685a8d6c52430594.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = dir_bb61871b4c63e4e6685a8d6c52430594.html; sourceTree = "<group>"; };
-		5EDBFF76255155B100AE2355 /* folderclosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folderclosed.png; sourceTree = "<group>"; };
-		5EDBFF77255155B100AE2355 /* dynsections.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dynsections.js; sourceTree = "<group>"; };
-		5EDBFF78255155B100AE2355 /* ConnectionPool_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ConnectionPool_8h.html; sourceTree = "<group>"; };
-		5EDBFF79255155B100AE2355 /* folderopen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folderopen.png; sourceTree = "<group>"; };
-		5EDBFF7A255155B100AE2355 /* globals.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals.html; sourceTree = "<group>"; };
-		5EDBFF7B255155B100AE2355 /* Connection_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Connection_8h.html; sourceTree = "<group>"; };
-		5EDBFF7C255155B100AE2355 /* zdb_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = zdb_8h.html; sourceTree = "<group>"; };
-		5EDBFF7D255155B100AE2355 /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		5EDBFF7E255155B100AE2355 /* ResultSet_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ResultSet_8h.html; sourceTree = "<group>"; };
-		5EDBFF7F255155B100AE2355 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		5EDBFF80255155B100AE2355 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
-		5EDBFF83255155B200AE2355 /* URL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = URL.c; sourceTree = "<group>"; };
-		5EDBFF84255155B200AE2355 /* URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
-		5EDBFF86255155B200AE2355 /* StringBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringBuffer.h; sourceTree = "<group>"; };
-		5EDBFF87255155B200AE2355 /* Vector.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Vector.c; sourceTree = "<group>"; };
-		5EDBFF88255155B200AE2355 /* Str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Str.c; sourceTree = "<group>"; };
-		5EDBFF89255155B200AE2355 /* Str.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Str.h; sourceTree = "<group>"; };
-		5EDBFF8A255155B200AE2355 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
-		5EDBFF8B255155B200AE2355 /* StringBuffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StringBuffer.c; sourceTree = "<group>"; };
-		5EDBFF8C255155B200AE2355 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
-		5EDBFF8D255155B200AE2355 /* zdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zdb.h; sourceTree = "<group>"; };
-		5EDBFF8F255155B200AE2355 /* MemoryException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryException.h; sourceTree = "<group>"; };
-		5EDBFF90255155B200AE2355 /* SQLException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLException.h; sourceTree = "<group>"; };
-		5EDBFF91255155B200AE2355 /* Exception.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Exception.c; sourceTree = "<group>"; };
-		5EDBFF92255155B200AE2355 /* assert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = assert.c; sourceTree = "<group>"; };
-		5EDBFF93255155B200AE2355 /* AssertException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssertException.h; sourceTree = "<group>"; };
-		5EDBFF94255155B200AE2355 /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
-		5EDBFF95255155B200AE2355 /* assert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assert.h; sourceTree = "<group>"; };
-		5EDBFF96255155B200AE2355 /* xconfig.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = xconfig.h.in; sourceTree = "<group>"; };
-		5EDBFF98255155B200AE2355 /* Time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
-		5EDBFF99255155B200AE2355 /* Mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Mem.c; sourceTree = "<group>"; };
-		5EDBFF9A255155B200AE2355 /* System.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = System.c; sourceTree = "<group>"; };
-		5EDBFF9B255155B200AE2355 /* Time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Time.c; sourceTree = "<group>"; };
-		5EDBFF9C255155B200AE2355 /* System.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
-		5EDBFF9D255155B200AE2355 /* Mem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mem.h; sourceTree = "<group>"; };
-		5EDBFF9E255155B200AE2355 /* Thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
-		5EDBFF9F255155B200AE2355 /* zdbpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zdbpp.h; sourceTree = "<group>"; };
-		5EDBFFA1255155B200AE2355 /* Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
-		5EDBFFA3255155B200AE2355 /* PostgresqlPreparedStatement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PostgresqlPreparedStatement.c; sourceTree = "<group>"; };
-		5EDBFFA4255155B200AE2355 /* PostgresqlAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostgresqlAdapter.h; sourceTree = "<group>"; };
-		5EDBFFA5255155B200AE2355 /* PostgresqlResultSet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PostgresqlResultSet.c; sourceTree = "<group>"; };
-		5EDBFFA6255155B200AE2355 /* PostgresqlConnection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PostgresqlConnection.c; sourceTree = "<group>"; };
-		5EDBFFA7255155B200AE2355 /* ResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultSet.h; sourceTree = "<group>"; };
-		5EDBFFA8255155B200AE2355 /* PreparedStatementDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreparedStatementDelegate.h; sourceTree = "<group>"; };
-		5EDBFFA9255155B200AE2355 /* ConnectionPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionPool.h; sourceTree = "<group>"; };
-		5EDBFFAB255155B200AE2355 /* OracleResultSet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OracleResultSet.c; sourceTree = "<group>"; };
-		5EDBFFAC255155B200AE2355 /* OracleAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OracleAdapter.h; sourceTree = "<group>"; };
-		5EDBFFAD255155B200AE2355 /* OraclePreparedStatement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OraclePreparedStatement.c; sourceTree = "<group>"; };
-		5EDBFFAE255155B200AE2355 /* OracleConnection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OracleConnection.c; sourceTree = "<group>"; };
-		5EDBFFAF255155B200AE2355 /* OracleAdapter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OracleAdapter.c; sourceTree = "<group>"; };
-		5EDBFFB0255155B200AE2355 /* ConnectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
-		5EDBFFB1255155B200AE2355 /* PreparedStatement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreparedStatement.h; sourceTree = "<group>"; };
-		5EDBFFB3255155B200AE2355 /* SQLitePreparedStatement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SQLitePreparedStatement.c; sourceTree = "<group>"; };
-		5EDBFFB4255155B200AE2355 /* SQLiteAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLiteAdapter.h; sourceTree = "<group>"; };
-		5EDBFFB5255155B200AE2355 /* SQLiteAdapter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SQLiteAdapter.c; sourceTree = "<group>"; };
-		5EDBFFB6255155B200AE2355 /* SQLiteResultSet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SQLiteResultSet.c; sourceTree = "<group>"; };
-		5EDBFFB7255155B200AE2355 /* SQLiteConnection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SQLiteConnection.c; sourceTree = "<group>"; };
-		5EDBFFB8255155B200AE2355 /* ResultSetDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultSetDelegate.h; sourceTree = "<group>"; };
-		5EDBFFB9255155B200AE2355 /* Connection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Connection.c; sourceTree = "<group>"; };
-		5EDBFFBB255155B200AE2355 /* MysqlConnection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MysqlConnection.c; sourceTree = "<group>"; };
-		5EDBFFBC255155B200AE2355 /* MysqlResultSet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MysqlResultSet.c; sourceTree = "<group>"; };
-		5EDBFFBD255155B200AE2355 /* MysqlPreparedStatement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MysqlPreparedStatement.c; sourceTree = "<group>"; };
-		5EDBFFBE255155B200AE2355 /* MysqlAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MysqlAdapter.h; sourceTree = "<group>"; };
-		5EDBFFBF255155B200AE2355 /* ResultSet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ResultSet.c; sourceTree = "<group>"; };
-		5EDBFFC0255155B200AE2355 /* ConnectionPool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ConnectionPool.c; sourceTree = "<group>"; };
-		5EDBFFC1255155B200AE2355 /* PreparedStatement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PreparedStatement.c; sourceTree = "<group>"; };
 		5EF0C33820C806A5005081B0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		6112A01B243B31A600DBD5F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6112A01D243B5FD500DBD5F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -1682,11 +1544,12 @@
 		63F1DF521BCE986A00EDED90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UICallConferenceCell.xib; sourceTree = "<group>"; };
 		63FB30331A680E73008CA393 /* UIRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRoundedImageView.h; sourceTree = "<group>"; };
 		63FB30341A680E73008CA393 /* UIRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRoundedImageView.m; sourceTree = "<group>"; };
-		6DC0C8F13B1BD5502D8AEE8E /* Pods-linphone.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
+		6AC0CCEBFD9BB5866927219A /* Pods_linphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_linphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD108AAB3B878329E9891C8 /* Pods-linphone.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
 		70E542F213E147E3002BA2C0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		70E542F413E147EB002BA2C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		71067F408629B48C8514624A /* Pods_linphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_linphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75B99BAF69C38A4154F18EEC /* Pods_msgNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D03B4992775D881C48728F9 /* Pods_msgNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81640F96899ADCCAC607E035 /* Pods-msgNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		8C1A1F7C1FA331D40064BE00 /* libsoci_sqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsoci_sqlite3.a; path = "liblinphone-sdk/apple-darwin/lib/libsoci_sqlite3.a"; sourceTree = "<group>"; };
 		8C1B67051E671826001EA2FE /* AudioHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioHelper.m; sourceTree = "<group>"; };
 		8C1B67081E6718BC001EA2FE /* AudioHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioHelper.h; path = Utils/AudioHelper.h; sourceTree = "<group>"; };
@@ -1744,13 +1607,9 @@
 		8CF25D941F9F336100BEA0C1 /* check_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_unselected.png; sourceTree = "<group>"; };
 		8CF25D9B1F9F76BC00BEA0C1 /* chat_group_informations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_group_informations.png; sourceTree = "<group>"; };
 		8CF25D9C1F9F76BD00BEA0C1 /* chat_group_informations@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_group_informations@2x.png"; sourceTree = "<group>"; };
-		93C72CC22D0AB5B2F2BE73B6 /* Pods-linphone.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.distribution.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.distribution.xcconfig"; sourceTree = "<group>"; };
-		98E660974A5023DB87686231 /* Pods-msgNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
-		9B05ACAC486056F5E50EB005 /* Pods-msgNotificationService.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distribution.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distribution.xcconfig"; sourceTree = "<group>"; };
-		A072C19EB2E4DCF58A49941B /* Pods-msgNotificationContent.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
-		A1890BEA1DA08E4BEC3B23BE /* Pods-linphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.release.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.release.xcconfig"; sourceTree = "<group>"; };
-		A1DE01AD08C3A65B9F090A72 /* Pods_msgNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4A58EC37F228EFCD0E99DE3 /* Pods-msgNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		97A82E5B613B13EA57A598EA /* Pods-msgNotificationContent.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
+		97D701B3E037E33080E465C8 /* Pods-msgNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		BBF5C0924A753DCC6C643888 /* Pods_msgNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msgNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90FAA7615AF54E6002091CB /* HistoryDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDetailsView.h; sourceTree = "<group>"; };
 		C90FAA7715AF54E6002091CB /* HistoryDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailsView.m; sourceTree = "<group>"; };
 		C9B3A6FD15B485DB006F52EE /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Utils/Utils.h; sourceTree = "<group>"; };
@@ -1773,6 +1632,7 @@
 		CF7602F3210898C600749F76 /* rec_off_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec_off_default.png; sourceTree = "<group>"; };
 		CF7602F4210898C800749F76 /* rec_on_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec_on_default.png; sourceTree = "<group>"; };
 		CFBD7A2320E504AD007C5286 /* delete_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_img.png; sourceTree = "<group>"; };
+		D04D082E9D7140C5DDEE3947 /* Pods-linphone.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.distribution.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.distribution.xcconfig"; sourceTree = "<group>"; };
 		D306459C1611EC2900BB571E /* UILoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILoadingImageView.h; sourceTree = "<group>"; };
 		D306459D1611EC2900BB571E /* UILoadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILoadingImageView.m; sourceTree = "<group>"; };
 		D3128FDE15AABC7E00A2147A /* ContactDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailsView.h; sourceTree = "<group>"; };
@@ -1884,9 +1744,8 @@
 		D3F83EEA1582021700336684 /* CallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallView.m; sourceTree = "<group>"; };
 		D3F83F8C158229C500336684 /* PhoneMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneMainView.h; sourceTree = "<group>"; };
 		D3F83F8D15822ABD00336684 /* PhoneMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneMainView.m; sourceTree = "<group>"; };
-		E3D803977D0867F1E44BBAFC /* Pods-linphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.debug.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.debug.xcconfig"; sourceTree = "<group>"; };
-		E7F5B266ED6748CE912210D8 /* Pods-msgNotificationService.distributionadhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.distributionadhoc.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.distributionadhoc.xcconfig"; sourceTree = "<group>"; };
-		E85E399E9C033CBE36EEC77E /* Pods-msgNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		D4877936B577344A1DAD1824 /* Pods-linphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.debug.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.debug.xcconfig"; sourceTree = "<group>"; };
+		E5C47D4999BA373724B7AD00 /* Pods-msgNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-msgNotificationContent/Pods-msgNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
 		EA5F25D9232BD3E200475F2E /* msgNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = msgNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5F25DB232BD3E200475F2E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		EA5F25DD232BD3E200475F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1927,7 +1786,7 @@
 		F0BB8C34193624C800974404 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = usr/lib/libresolv.9.dylib; sourceTree = SDKROOT; };
 		F0BB8C4A193631B300974404 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F0FF66AA1ACAEEB0008A4486 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
-		FA5E30D7C99E7E82D31210CE /* Pods-msgNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-msgNotificationService.release.xcconfig"; path = "Target Support Files/Pods-msgNotificationService/Pods-msgNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		F19923F481F2418F1713B222 /* Pods-linphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphone.release.xcconfig"; path = "Target Support Files/Pods-linphone/Pods-linphone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1937,7 +1796,7 @@
 			files = (
 				EA88F3AC241BD05200E66528 /* UserNotificationsUI.framework in Frameworks */,
 				EA88F3AB241BD05200E66528 /* UserNotifications.framework in Frameworks */,
-				AEBAF7B3ED3A011E435F5B8B /* Pods_msgNotificationContent.framework in Frameworks */,
+				D58201618E646CC604157E54 /* Pods_msgNotificationContent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1980,7 +1839,7 @@
 				F05BAA621A5D594E00411815 /* libz.dylib in Frameworks */,
 				344ABDF114850AE9007420B6 /* libc++.1.dylib in Frameworks */,
 				22D1B68112A3E0BE001AE361 /* libresolv.dylib in Frameworks */,
-				1016B71E3D638D6AFB73FEC8 /* Pods_linphone.framework in Frameworks */,
+				5055FFCB6CA4596E0EFBB387 /* Pods_linphone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1988,7 +1847,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D948E6B6241486F790C6F33 /* Pods_msgNotificationService.framework in Frameworks */,
+				9A56D4AF1B84F013666E2A33 /* Pods_msgNotificationService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2315,8 +2174,6 @@
 			isa = PBXGroup;
 			children = (
 				5E363F4F255961E60041E4BE /* libpq.framework */,
-				5EDBFF23255155B000AE2355 /* libzdb-3.2.2 */,
-				5EDBFF1F2551549800AE2355 /* libzdb-3.2.2.tar */,
 				5EDBFE3F25513EAC00AE2355 /* PGClientKit_ios.framework */,
 				5ECBF1C825512D15000864B5 /* linphonesw.framework */,
 				5ECBF1C425512CD8000864B5 /* linphonesw.framework */,
@@ -2375,9 +2232,9 @@
 				8C73477B1D9BA3A00022EE8C /* UserNotifications.framework */,
 				5E58962520DCE5700030868C /* UserNotificationsUI.framework */,
 				63CE583F1C85EBF400304800 /* VideoToolbox.framework */,
-				71067F408629B48C8514624A /* Pods_linphone.framework */,
-				75B99BAF69C38A4154F18EEC /* Pods_msgNotificationContent.framework */,
-				A1DE01AD08C3A65B9F090A72 /* Pods_msgNotificationService.framework */,
+				6AC0CCEBFD9BB5866927219A /* Pods_linphone.framework */,
+				BBF5C0924A753DCC6C643888 /* Pods_msgNotificationContent.framework */,
+				7D03B4992775D881C48728F9 /* Pods_msgNotificationService.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2385,18 +2242,18 @@
 		55C93CD9D0ED180CCE604B1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3D803977D0867F1E44BBAFC /* Pods-linphone.debug.xcconfig */,
-				A1890BEA1DA08E4BEC3B23BE /* Pods-linphone.release.xcconfig */,
-				93C72CC22D0AB5B2F2BE73B6 /* Pods-linphone.distribution.xcconfig */,
-				6DC0C8F13B1BD5502D8AEE8E /* Pods-linphone.distributionadhoc.xcconfig */,
-				E85E399E9C033CBE36EEC77E /* Pods-msgNotificationContent.debug.xcconfig */,
-				98E660974A5023DB87686231 /* Pods-msgNotificationContent.release.xcconfig */,
-				57F47CDE71347E68401CA99F /* Pods-msgNotificationContent.distribution.xcconfig */,
-				A072C19EB2E4DCF58A49941B /* Pods-msgNotificationContent.distributionadhoc.xcconfig */,
-				B4A58EC37F228EFCD0E99DE3 /* Pods-msgNotificationService.debug.xcconfig */,
-				FA5E30D7C99E7E82D31210CE /* Pods-msgNotificationService.release.xcconfig */,
-				9B05ACAC486056F5E50EB005 /* Pods-msgNotificationService.distribution.xcconfig */,
-				E7F5B266ED6748CE912210D8 /* Pods-msgNotificationService.distributionadhoc.xcconfig */,
+				D4877936B577344A1DAD1824 /* Pods-linphone.debug.xcconfig */,
+				F19923F481F2418F1713B222 /* Pods-linphone.release.xcconfig */,
+				D04D082E9D7140C5DDEE3947 /* Pods-linphone.distribution.xcconfig */,
+				6FD108AAB3B878329E9891C8 /* Pods-linphone.distributionadhoc.xcconfig */,
+				E5C47D4999BA373724B7AD00 /* Pods-msgNotificationContent.debug.xcconfig */,
+				97D701B3E037E33080E465C8 /* Pods-msgNotificationContent.release.xcconfig */,
+				4B94F38887AC2B014E1A16C3 /* Pods-msgNotificationContent.distribution.xcconfig */,
+				97A82E5B613B13EA57A598EA /* Pods-msgNotificationContent.distributionadhoc.xcconfig */,
+				81640F96899ADCCAC607E035 /* Pods-msgNotificationService.debug.xcconfig */,
+				444C81326F809E566AA35138 /* Pods-msgNotificationService.release.xcconfig */,
+				4A105DF60933A9CD010118F6 /* Pods-msgNotificationService.distribution.xcconfig */,
+				1656F243C08EA7BDE7200466 /* Pods-msgNotificationService.distributionadhoc.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -2411,298 +2268,6 @@
 				5E8A9BB425501DF7008B508F /* RegisterView.m */,
 			);
 			path = cleverFramework;
-			sourceTree = "<group>";
-		};
-		5EDBFF23255155B000AE2355 /* libzdb-3.2.2 */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF24255155B000AE2355 /* zdb.pc.in */,
-				5EDBFF25255155B000AE2355 /* configure.ac */,
-				5EDBFF26255155B000AE2355 /* tools */,
-				5EDBFF2B255155B000AE2355 /* bootstrap */,
-				5EDBFF2C255155B000AE2355 /* test */,
-				5EDBFF35255155B000AE2355 /* configure */,
-				5EDBFF36255155B000AE2355 /* config */,
-				5EDBFF44255155B100AE2355 /* AUTHORS */,
-				5EDBFF45255155B100AE2355 /* CHANGES */,
-				5EDBFF46255155B100AE2355 /* README */,
-				5EDBFF47255155B100AE2355 /* Makefile.am */,
-				5EDBFF48255155B100AE2355 /* COPYING */,
-				5EDBFF49255155B100AE2355 /* m4 */,
-				5EDBFF4F255155B100AE2355 /* doc */,
-				5EDBFF7F255155B100AE2355 /* Makefile.in */,
-				5EDBFF80255155B100AE2355 /* aclocal.m4 */,
-				5EDBFF81255155B100AE2355 /* src */,
-			);
-			name = "libzdb-3.2.2";
-			path = "../../../Downloads/libzdb-3.2.2";
-			sourceTree = "<group>";
-		};
-		5EDBFF26255155B000AE2355 /* tools */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF27255155B000AE2355 /* filterh */,
-				5EDBFF2A255155B000AE2355 /* bin */,
-			);
-			path = tools;
-			sourceTree = "<group>";
-		};
-		5EDBFF27255155B000AE2355 /* filterh */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF28255155B000AE2355 /* filterh.l */,
-				5EDBFF29255155B000AE2355 /* lex.yy.c */,
-			);
-			path = filterh;
-			sourceTree = "<group>";
-		};
-		5EDBFF2A255155B000AE2355 /* bin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = bin;
-			sourceTree = "<group>";
-		};
-		5EDBFF2C255155B000AE2355 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF2D255155B000AE2355 /* exception.c */,
-				5EDBFF2E255155B000AE2355 /* Makefile */,
-				5EDBFF2F255155B000AE2355 /* select.c */,
-				5EDBFF30255155B000AE2355 /* Makefile.am */,
-				5EDBFF31255155B000AE2355 /* pool.c */,
-				5EDBFF32255155B000AE2355 /* zdbpp.cpp */,
-				5EDBFF33255155B000AE2355 /* Makefile.in */,
-				5EDBFF34255155B000AE2355 /* unit.c */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		5EDBFF36255155B000AE2355 /* config */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF37255155B000AE2355 /* doxy_head */,
-				5EDBFF38255155B000AE2355 /* install-sh */,
-				5EDBFF39255155B000AE2355 /* ax_info.m4 */,
-				5EDBFF3A255155B100AE2355 /* ltmain.sh */,
-				5EDBFF3B255155B100AE2355 /* config.guess */,
-				5EDBFF3C255155B100AE2355 /* tnsnames.ora */,
-				5EDBFF3D255155B100AE2355 /* missing */,
-				5EDBFF3E255155B100AE2355 /* config.sub */,
-				5EDBFF3F255155B100AE2355 /* compile */,
-				5EDBFF40255155B100AE2355 /* DoxygenLayout.xml */,
-				5EDBFF41255155B100AE2355 /* doxy_bottom */,
-				5EDBFF42255155B100AE2355 /* Doxyfile */,
-				5EDBFF43255155B100AE2355 /* ax_lib_oracle_oci.m4 */,
-			);
-			path = config;
-			sourceTree = "<group>";
-		};
-		5EDBFF49255155B100AE2355 /* m4 */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF4A255155B100AE2355 /* ltversion.m4 */,
-				5EDBFF4B255155B100AE2355 /* libtool.m4 */,
-				5EDBFF4C255155B100AE2355 /* ltoptions.m4 */,
-				5EDBFF4D255155B100AE2355 /* ltsugar.m4 */,
-				5EDBFF4E255155B100AE2355 /* lt~obsolete.m4 */,
-			);
-			path = m4;
-			sourceTree = "<group>";
-		};
-		5EDBFF4F255155B100AE2355 /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF50255155B100AE2355 /* THIRDPARTY-LICENSE */,
-				5EDBFF51255155B100AE2355 /* LICENSE.pdf */,
-				5EDBFF52255155B100AE2355 /* api-docs */,
-			);
-			path = doc;
-			sourceTree = "<group>";
-		};
-		5EDBFF52255155B100AE2355 /* api-docs */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF53255155B100AE2355 /* globals_type.html */,
-				5EDBFF54255155B100AE2355 /* splitbar.png */,
-				5EDBFF55255155B100AE2355 /* doxygen.css */,
-				5EDBFF56255155B100AE2355 /* index.html */,
-				5EDBFF57255155B100AE2355 /* sync_off.png */,
-				5EDBFF58255155B100AE2355 /* sync_on.png */,
-				5EDBFF59255155B100AE2355 /* libzdb.css */,
-				5EDBFF5A255155B100AE2355 /* PreparedStatement_8h.html */,
-				5EDBFF5B255155B100AE2355 /* doc.png */,
-				5EDBFF5C255155B100AE2355 /* bc_s.png */,
-				5EDBFF5D255155B100AE2355 /* nav_g.png */,
-				5EDBFF5E255155B100AE2355 /* nav_f.png */,
-				5EDBFF5F255155B100AE2355 /* tabs.css */,
-				5EDBFF60255155B100AE2355 /* database.png */,
-				5EDBFF61255155B100AE2355 /* closed.png */,
-				5EDBFF62255155B100AE2355 /* doxygen.png */,
-				5EDBFF63255155B100AE2355 /* mysqloptions.html */,
-				5EDBFF64255155B100AE2355 /* tab_s.png */,
-				5EDBFF65255155B100AE2355 /* files.html */,
-				5EDBFF66255155B100AE2355 /* tab_a.png */,
-				5EDBFF67255155B100AE2355 /* URL_8h.html */,
-				5EDBFF68255155B100AE2355 /* tab_b.png */,
-				5EDBFF69255155B100AE2355 /* bdwn.png */,
-				5EDBFF6A255155B100AE2355 /* globals_vars.html */,
-				5EDBFF6B255155B100AE2355 /* postgresoptions.html */,
-				5EDBFF6C255155B100AE2355 /* globals_func.html */,
-				5EDBFF6D255155B100AE2355 /* nav_h.png */,
-				5EDBFF6E255155B100AE2355 /* tab_h.png */,
-				5EDBFF6F255155B100AE2355 /* SQLException_8h.html */,
-				5EDBFF70255155B100AE2355 /* oracleoptions.html */,
-				5EDBFF71255155B100AE2355 /* Exception_8h.html */,
-				5EDBFF72255155B100AE2355 /* libzdboptions.css */,
-				5EDBFF73255155B100AE2355 /* open.png */,
-				5EDBFF74255155B100AE2355 /* globals_defs.html */,
-				5EDBFF75255155B100AE2355 /* dir_bb61871b4c63e4e6685a8d6c52430594.html */,
-				5EDBFF76255155B100AE2355 /* folderclosed.png */,
-				5EDBFF77255155B100AE2355 /* dynsections.js */,
-				5EDBFF78255155B100AE2355 /* ConnectionPool_8h.html */,
-				5EDBFF79255155B100AE2355 /* folderopen.png */,
-				5EDBFF7A255155B100AE2355 /* globals.html */,
-				5EDBFF7B255155B100AE2355 /* Connection_8h.html */,
-				5EDBFF7C255155B100AE2355 /* zdb_8h.html */,
-				5EDBFF7D255155B100AE2355 /* jquery.js */,
-				5EDBFF7E255155B100AE2355 /* ResultSet_8h.html */,
-			);
-			path = "api-docs";
-			sourceTree = "<group>";
-		};
-		5EDBFF81255155B100AE2355 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF82255155B100AE2355 /* net */,
-				5EDBFF85255155B200AE2355 /* util */,
-				5EDBFF8C255155B200AE2355 /* Config.h */,
-				5EDBFF8D255155B200AE2355 /* zdb.h */,
-				5EDBFF8E255155B200AE2355 /* exceptions */,
-				5EDBFF96255155B200AE2355 /* xconfig.h.in */,
-				5EDBFF97255155B200AE2355 /* system */,
-				5EDBFF9E255155B200AE2355 /* Thread.h */,
-				5EDBFF9F255155B200AE2355 /* zdbpp.h */,
-				5EDBFFA0255155B200AE2355 /* db */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		5EDBFF82255155B100AE2355 /* net */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF83255155B200AE2355 /* URL.c */,
-				5EDBFF84255155B200AE2355 /* URL.h */,
-			);
-			path = net;
-			sourceTree = "<group>";
-		};
-		5EDBFF85255155B200AE2355 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF86255155B200AE2355 /* StringBuffer.h */,
-				5EDBFF87255155B200AE2355 /* Vector.c */,
-				5EDBFF88255155B200AE2355 /* Str.c */,
-				5EDBFF89255155B200AE2355 /* Str.h */,
-				5EDBFF8A255155B200AE2355 /* Vector.h */,
-				5EDBFF8B255155B200AE2355 /* StringBuffer.c */,
-			);
-			path = util;
-			sourceTree = "<group>";
-		};
-		5EDBFF8E255155B200AE2355 /* exceptions */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF8F255155B200AE2355 /* MemoryException.h */,
-				5EDBFF90255155B200AE2355 /* SQLException.h */,
-				5EDBFF91255155B200AE2355 /* Exception.c */,
-				5EDBFF92255155B200AE2355 /* assert.c */,
-				5EDBFF93255155B200AE2355 /* AssertException.h */,
-				5EDBFF94255155B200AE2355 /* Exception.h */,
-				5EDBFF95255155B200AE2355 /* assert.h */,
-			);
-			path = exceptions;
-			sourceTree = "<group>";
-		};
-		5EDBFF97255155B200AE2355 /* system */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFF98255155B200AE2355 /* Time.h */,
-				5EDBFF99255155B200AE2355 /* Mem.c */,
-				5EDBFF9A255155B200AE2355 /* System.c */,
-				5EDBFF9B255155B200AE2355 /* Time.c */,
-				5EDBFF9C255155B200AE2355 /* System.h */,
-				5EDBFF9D255155B200AE2355 /* Mem.h */,
-			);
-			path = system;
-			sourceTree = "<group>";
-		};
-		5EDBFFA0255155B200AE2355 /* db */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFFA1255155B200AE2355 /* Connection.h */,
-				5EDBFFA2255155B200AE2355 /* postgresql */,
-				5EDBFFA7255155B200AE2355 /* ResultSet.h */,
-				5EDBFFA8255155B200AE2355 /* PreparedStatementDelegate.h */,
-				5EDBFFA9255155B200AE2355 /* ConnectionPool.h */,
-				5EDBFFAA255155B200AE2355 /* oracle */,
-				5EDBFFB0255155B200AE2355 /* ConnectionDelegate.h */,
-				5EDBFFB1255155B200AE2355 /* PreparedStatement.h */,
-				5EDBFFB2255155B200AE2355 /* sqlite */,
-				5EDBFFB8255155B200AE2355 /* ResultSetDelegate.h */,
-				5EDBFFB9255155B200AE2355 /* Connection.c */,
-				5EDBFFBA255155B200AE2355 /* mysql */,
-				5EDBFFBF255155B200AE2355 /* ResultSet.c */,
-				5EDBFFC0255155B200AE2355 /* ConnectionPool.c */,
-				5EDBFFC1255155B200AE2355 /* PreparedStatement.c */,
-			);
-			path = db;
-			sourceTree = "<group>";
-		};
-		5EDBFFA2255155B200AE2355 /* postgresql */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFFA3255155B200AE2355 /* PostgresqlPreparedStatement.c */,
-				5EDBFFA4255155B200AE2355 /* PostgresqlAdapter.h */,
-				5EDBFFA5255155B200AE2355 /* PostgresqlResultSet.c */,
-				5EDBFFA6255155B200AE2355 /* PostgresqlConnection.c */,
-			);
-			path = postgresql;
-			sourceTree = "<group>";
-		};
-		5EDBFFAA255155B200AE2355 /* oracle */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFFAB255155B200AE2355 /* OracleResultSet.c */,
-				5EDBFFAC255155B200AE2355 /* OracleAdapter.h */,
-				5EDBFFAD255155B200AE2355 /* OraclePreparedStatement.c */,
-				5EDBFFAE255155B200AE2355 /* OracleConnection.c */,
-				5EDBFFAF255155B200AE2355 /* OracleAdapter.c */,
-			);
-			path = oracle;
-			sourceTree = "<group>";
-		};
-		5EDBFFB2255155B200AE2355 /* sqlite */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFFB3255155B200AE2355 /* SQLitePreparedStatement.c */,
-				5EDBFFB4255155B200AE2355 /* SQLiteAdapter.h */,
-				5EDBFFB5255155B200AE2355 /* SQLiteAdapter.c */,
-				5EDBFFB6255155B200AE2355 /* SQLiteResultSet.c */,
-				5EDBFFB7255155B200AE2355 /* SQLiteConnection.c */,
-			);
-			path = sqlite;
-			sourceTree = "<group>";
-		};
-		5EDBFFBA255155B200AE2355 /* mysql */ = {
-			isa = PBXGroup;
-			children = (
-				5EDBFFBB255155B200AE2355 /* MysqlConnection.c */,
-				5EDBFFBC255155B200AE2355 /* MysqlResultSet.c */,
-				5EDBFFBD255155B200AE2355 /* MysqlPreparedStatement.c */,
-				5EDBFFBE255155B200AE2355 /* MysqlAdapter.h */,
-			);
-			path = mysql;
 			sourceTree = "<group>";
 		};
 		5EDBFFC2255155BF00AE2355 /* zlib */ = {
@@ -3481,14 +3046,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "linphone" */;
 			buildPhases = (
-				08A12027A10E89E22C814024 /* [CP] Check Pods Manifest.lock */,
+				142B5CBFE4EF697AC7C35561 /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				63DCC71D1A07B08E00916627 /* Run Script */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				5EF0C35020C806A5005081B0 /* Embed App Extensions */,
 				614D0A1821E77F5300C43EDF /* ShellScript */,
-				4D5C7239F84DC7D37E714C4F /* [CP] Embed Pods Frameworks */,
+				F6AC1560E64F4B0543805809 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3526,7 +3091,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA5F25E1232BD3E300475F2E /* Build configuration list for PBXNativeTarget "msgNotificationService" */;
 			buildPhases = (
-				0746326D057D1562559261DD /* [CP] Check Pods Manifest.lock */,
+				686488E52E359F65574F5714 /* [CP] Check Pods Manifest.lock */,
 				EA5F25D5232BD3E200475F2E /* Sources */,
 				203E6292C3E84CD13778F720 /* Frameworks */,
 				EA88A406242A6224007FEC61 /* Resources */,
@@ -3545,7 +3110,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA8CB834239F96CA00C330CC /* Build configuration list for PBXNativeTarget "msgNotificationContent" */;
 			buildPhases = (
-				56A2014579E9D47BA865BDDF /* [CP] Check Pods Manifest.lock */,
+				349E8E52E41E4C24BE167089 /* [CP] Check Pods Manifest.lock */,
 				EA8CB823239F96CA00C330CC /* Sources */,
 				143EFEE2501CB14E6BB244EF /* Frameworks */,
 				EA88F3AE241BD1ED00E66528 /* Resources */,
@@ -4267,29 +3832,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0746326D057D1562559261DD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-msgNotificationService-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		08A12027A10E89E22C814024 /* [CP] Check Pods Manifest.lock */ = {
+		142B5CBFE4EF697AC7C35561 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4311,24 +3854,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D5C7239F84DC7D37E714C4F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56A2014579E9D47BA865BDDF /* [CP] Check Pods Manifest.lock */ = {
+		349E8E52E41E4C24BE167089 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4421,6 +3947,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "$SRCROOT/Tools/git_version.sh\n";
+		};
+		686488E52E359F65574F5714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-msgNotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AC1560E64F4B0543805809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linphone/Pods-linphone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -5003,7 +4568,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3D803977D0867F1E44BBAFC /* Pods-linphone.debug.xcconfig */;
+			baseConfigurationReference = D4877936B577344A1DAD1824 /* Pods-linphone.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -5019,7 +4584,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DAPAYJKPYU;
 				ENABLE_BITCODE = NO;
@@ -5055,14 +4620,14 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.4.6\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.4.7\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.clevercom.zencomms2;
@@ -5138,7 +4703,7 @@
 		};
 		228B19A71302902F00F154D3 /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DC0C8F13B1BD5502D8AEE8E /* Pods-linphone.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 6FD108AAB3B878329E9891C8 /* Pods-linphone.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -5154,7 +4719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DAPAYJKPYU;
 				ENABLE_BITCODE = NO;
@@ -5187,14 +4752,14 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.4.6\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.4.7\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.clevercom.zencomms2;
@@ -5269,7 +4834,7 @@
 		};
 		22F3D55613CC3C9100A0DA02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1890BEA1DA08E4BEC3B23BE /* Pods-linphone.release.xcconfig */;
+			baseConfigurationReference = F19923F481F2418F1713B222 /* Pods-linphone.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -5285,7 +4850,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DAPAYJKPYU;
 				ENABLE_BITCODE = NO;
@@ -5318,14 +4883,14 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.4.6\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.4.7\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.clevercom.zencomms2;
@@ -5399,7 +4964,7 @@
 		};
 		22F51EE8107FA53D00F98953 /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93C72CC22D0AB5B2F2BE73B6 /* Pods-linphone.distribution.xcconfig */;
+			baseConfigurationReference = D04D082E9D7140C5DDEE3947 /* Pods-linphone.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -5415,7 +4980,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = DAPAYJKPYU;
 				ENABLE_BITCODE = NO;
@@ -5448,14 +5013,14 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
 					"-DENABLE_QRCODE=TRUE",
 					"-DENABLE_SMS_INVITE=TRUE",
 					"$(inherited)",
-					"-DLINPHONE_SDK_VERSION=\\\"4.4.6\\\"",
+					"-DLINPHONE_SDK_VERSION=\\\"4.4.7\\\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = za.co.clevercom.zencomms2;
@@ -5694,7 +5259,7 @@
 		};
 		EA5F25E2232BD3E300475F2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4A58EC37F228EFCD0E99DE3 /* Pods-msgNotificationService.debug.xcconfig */;
+			baseConfigurationReference = 81640F96899ADCCAC607E035 /* Pods-msgNotificationService.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -5754,7 +5319,7 @@
 		};
 		EA5F25E3232BD3E300475F2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA5E30D7C99E7E82D31210CE /* Pods-msgNotificationService.release.xcconfig */;
+			baseConfigurationReference = 444C81326F809E566AA35138 /* Pods-msgNotificationService.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -5811,7 +5376,7 @@
 		};
 		EA5F25E4232BD3E300475F2E /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B05ACAC486056F5E50EB005 /* Pods-msgNotificationService.distribution.xcconfig */;
+			baseConfigurationReference = 4A105DF60933A9CD010118F6 /* Pods-msgNotificationService.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -5868,7 +5433,7 @@
 		};
 		EA5F25E5232BD3E300475F2E /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7F5B266ED6748CE912210D8 /* Pods-msgNotificationService.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 1656F243C08EA7BDE7200466 /* Pods-msgNotificationService.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -5925,7 +5490,7 @@
 		};
 		EA8CB835239F96CA00C330CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E85E399E9C033CBE36EEC77E /* Pods-msgNotificationContent.debug.xcconfig */;
+			baseConfigurationReference = E5C47D4999BA373724B7AD00 /* Pods-msgNotificationContent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -5984,7 +5549,7 @@
 		};
 		EA8CB836239F96CA00C330CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E660974A5023DB87686231 /* Pods-msgNotificationContent.release.xcconfig */;
+			baseConfigurationReference = 97D701B3E037E33080E465C8 /* Pods-msgNotificationContent.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6040,7 +5605,7 @@
 		};
 		EA8CB837239F96CA00C330CC /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57F47CDE71347E68401CA99F /* Pods-msgNotificationContent.distribution.xcconfig */;
+			baseConfigurationReference = 4B94F38887AC2B014E1A16C3 /* Pods-msgNotificationContent.distribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6096,7 +5661,7 @@
 		};
 		EA8CB838239F96CA00C330CC /* DistributionAdhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A072C19EB2E4DCF58A49941B /* Pods-msgNotificationContent.distributionadhoc.xcconfig */;
+			baseConfigurationReference = 97A82E5B613B13EA57A598EA /* Pods-msgNotificationContent.distributionadhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
