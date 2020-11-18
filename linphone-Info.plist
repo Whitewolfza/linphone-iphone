@@ -85,11 +85,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>Use your BT headset</string>
+	<string>Use your BT headset to listen to call</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Share photos with your friends and customize avatars</string>
+	<string>Use your camera to make video calls</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Make calls with your friends</string>
+	<string>To make calls to your current contacts via the app</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Linphone will not use, store or communicate your location. The authorization allows us to detect Wifi connection changes</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -97,7 +97,7 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Add tranfered files to your library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Share photos with your friends and customize avatars</string>
+	<string>To send pictures to your friends</string>
 	<key>NSUbiquitousContainers</key>
 	<dict>
 		<key>iCloud.org.linphone.phone</key>
