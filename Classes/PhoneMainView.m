@@ -604,7 +604,7 @@ static void CheckUser()
             if ([UIApplication sharedApplication].applicationState == UIApplicationStateBackground) {
                 dispatch_async(dispatch_get_main_queue(), ^{
 					[PhoneMainView.instance popToView:DialerView.compositeViewDescription];
-					[CoreManager.instance stopLinphoneCore];
+					//[CoreManager.instance stopLinphoneCore];
                 });
             }
             break;

@@ -358,8 +358,18 @@ import AVFoundation
 			Log.directLog(BCTBX_LOG_ERROR, text: "Failed to terminate call failed because \(error)")
 		}
 		if (UIApplication.shared.applicationState == .background) {
-			CoreManager.instance().stopLinphoneCore()
+			//CoreManager.instance().stopLinphoneCore()
 		}
+        let LC = CoreManager.instance().lc;
+
+        LC?.refreshRegisters();
+        LC?.iterate();
+        UIApplication.shared.setKeepAliveTimeout(1, handler:{
+
+            LC?.refreshRegisters();
+            LC?.iterate();
+})
+        
 	}
 
 	@objc func markCallAsDeclined(callId: String) {
